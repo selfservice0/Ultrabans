@@ -1,7 +1,6 @@
 package com.modcrafting.ultrabans.commands;
 
 import java.io.File;
-import java.security.Permissions;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -13,6 +12,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.util.config.Configuration;
 
 import com.modcrafting.ultrabans.UltraBan;
+import com.nijikokun.bukkit.Permissions.Permissions;
 
 @SuppressWarnings("deprecation")
 public class Ban implements CommandExecutor{

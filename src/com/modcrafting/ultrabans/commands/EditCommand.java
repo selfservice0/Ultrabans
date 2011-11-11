@@ -1,6 +1,6 @@
 package com.modcrafting.ultrabans.commands;
 
-import java.security.Permissions;
+
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.List;
@@ -12,6 +12,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.modcrafting.ultrabans.UltraBan;
+import com.nijikokun.bukkit.Permissions.Permissions;
 
 public class EditCommand implements CommandExecutor{
 	UltraBan plugin;
