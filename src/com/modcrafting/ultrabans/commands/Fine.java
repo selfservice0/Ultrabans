@@ -1,5 +1,6 @@
 package com.modcrafting.ultrabans.commands;
 
+import java.security.Permissions;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -11,7 +12,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.RegisteredServiceProvider;
 
 import com.modcrafting.ultrabans.UltraBan;
-import com.nijikokun.bukkit.Permissions.Permissions;
 
 public class Fine implements CommandExecutor{
 	public net.milkbowl.vault.economy.Economy economy = null;

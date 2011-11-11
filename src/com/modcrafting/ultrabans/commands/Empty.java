@@ -1,5 +1,6 @@
 package com.modcrafting.ultrabans.commands;
 
+import java.security.Permissions;
 import java.util.logging.Logger;
 
 import org.bukkit.ChatColor;
@@ -9,7 +10,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.modcrafting.ultrabans.UltraBan;
-import com.nijikokun.bukkit.Permissions.Permissions;
 
 public class Empty implements CommandExecutor{
 	public static final Logger log = Logger.getLogger("Minecraft");
